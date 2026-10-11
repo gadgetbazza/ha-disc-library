@@ -1,0 +1,11 @@
+{
+  "domain": "disc_library",
+  "name": "Disc Library",
+  "codeowners": ["@gadgetbazza"],
+  "dependencies": [],
+  "documentation": "https://github.com/gadgetbazza/ha-disc-library",
+  "issue_tracker": "https://github.com/gadgetbazza/ha-disc-library/issues",
+  "iot_class": "calculated",
+  "requirements": [],
+  "version": "0.2.0"
+}

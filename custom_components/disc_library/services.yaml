@@ -1,0 +1,29 @@
+identify:
+  name: Identify disc
+  description: Name the disc now in a player (once); it is recognised from then on.
+  fields:
+    entity_id:
+      name: Disc sensor
+      required: true
+      selector:
+        entity:
+          integration: disc_library
+    tmdb_id:
+      name: TMDB id
+      description: The film's TMDB id (from the sensor's candidates).
+      required: true
+      selector:
+        number:
+          min: 1
+          max: 99999999
+          mode: box
+forget:
+  name: Forget disc
+  description: Forget the name given to the disc now in a player.
+  fields:
+    entity_id:
+      name: Disc sensor
+      required: true
+      selector:
+        entity:
+          integration: disc_library
